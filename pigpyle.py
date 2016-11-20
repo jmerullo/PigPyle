@@ -1,3 +1,7 @@
+#
+# Created by Jack Merullo on 11/19/16
+#
+
 import sys, getopt
 
 def getSuffix(word, suffix):
