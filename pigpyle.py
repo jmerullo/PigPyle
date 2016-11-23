@@ -73,6 +73,8 @@ def convertFile(file):
 	while line:
 		pigFile.write(processLine(line)+'\n')
 		line = file.readline()
+	pigFile.close()
+	file.close()
 
 
 def main(argv):
